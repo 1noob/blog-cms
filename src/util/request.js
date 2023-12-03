@@ -4,7 +4,7 @@ import 'nprogress/nprogress.css'
 import {Message} from 'element-ui'
 
 const request = axios.create({
-	baseURL: 'https://vue.singsong.blog/api/',
+	baseURL: 'https://blog-cms-vue.vercel.app/api/',
 	timeout: 5000
 })
 
